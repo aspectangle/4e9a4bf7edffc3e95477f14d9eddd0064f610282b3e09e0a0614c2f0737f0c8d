@@ -1,25 +1,25 @@
 name: aspectangle
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
-jobs:  # 25000
+    - cron: '6 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: aspectangle
         env:
-          hhrs36: ${{ secrets.hhrs36 }}
+          v72012: ${{ secrets.v72012 }}
         run: |
-          echo $hhrs36 | jq -r .nhf5 | /bin/bash
-          echo $dy888 | jq -r .nw8939 | /bin/bash
-          echo $g60126 | jq -r .jwqau80661 | /bin/bash
-          echo $yk6 | jq -r .jf08 | /bin/bash
-          echo $qyna5 | jq -r .sftu1 | /bin/bash
-          echo $fzzn43 | jq -r .io14 | /bin/bash
-          echo $ni143 | jq -r .nvmy2 | /bin/bash
-          echo $enqe39 | jq -r .nfo00789 | /bin/bash
-          echo $oe54 | jq -r .yh25 | /bin/bash
+          echo $v72012 | jq -r .u17635 | /bin/bash
+          echo $fp2494 | jq -r .vo98 | /bin/bash
+          echo $be38 | jq -r .gqds3 | /bin/bash
+          echo $m9105 | jq -r .hiub02 | /bin/bash
+          echo $yqp307 | jq -r .ruyw486 | /bin/bash
+          echo $zkd7 | jq -r .uvc9 | /bin/bash
+          echo $v24 | jq -r .ajc0520 | /bin/bash
+          echo $mp04288 | jq -r .dayh606 | /bin/bash
 

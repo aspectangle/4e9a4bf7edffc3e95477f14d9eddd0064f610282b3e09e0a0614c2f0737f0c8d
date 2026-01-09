@@ -2,24 +2,28 @@ name: aspectangle
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 3/6 * * *'
+    - cron: '56 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: aspectangle
         env:
-          v72012: ${{ secrets.v72012 }}
+          ne53: ${{ secrets.ne53 }}
         run: |
-          echo $v72012 | jq -r .u17635 | /bin/bash
-          echo $fp2494 | jq -r .vo98 | /bin/bash
-          echo $be38 | jq -r .gqds3 | /bin/bash
-          echo $m9105 | jq -r .hiub02 | /bin/bash
-          echo $yqp307 | jq -r .ruyw486 | /bin/bash
-          echo $zkd7 | jq -r .uvc9 | /bin/bash
-          echo $v24 | jq -r .ajc0520 | /bin/bash
-          echo $mp04288 | jq -r .dayh606 | /bin/bash
+          echo $ne53 | jq -r .bfr95 | /bin/bash
+          echo $dmd80 | jq -r .nhptw8 | /bin/bash
+          echo $ypoew1 | jq -r .s33757 | /bin/bash
+          echo $fchnz58292 | jq -r .zmjzl0917 | /bin/bash
+          echo $xgev489 | jq -r .ejpeu67 | /bin/bash
+          echo $xmf153 | jq -r .w6 | /bin/bash
+          echo $hvy98883 | jq -r .s767 | /bin/bash
+          echo $f35280 | jq -r .hq3 | /bin/bash
+          echo $id1190 | jq -r .isfpc2778 | /bin/bash
+          echo $gnm9628 | jq -r .zcp24031 | /bin/bash
+          echo $r8303 | jq -r .os85044 | /bin/bash
+          echo $us1518 | jq -r .i1 | /bin/bash
+          echo $r194 | jq -r .n50 | /bin/bash
 
